@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.info {
+  background-color: beige;
+}
+
+.text-info {
+  color: brown;
+  font-size: 40px;
+}
+.img-info {
+  width: 350px;
+}
+.virsh {
+  font-size: 20px;
+  color: yellowgreen;
+}
+.virsh::after {
+  content: "";
+  height: 4px;
+  width: 60px;
+  background-color: #f38181;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+}
